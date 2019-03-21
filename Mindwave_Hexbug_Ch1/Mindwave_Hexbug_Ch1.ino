@@ -25,8 +25,6 @@ void setup() {
  delay (1000);
  hexbug_spider_right();
 
-// pinMode(LED_BUILTIN, OUTPUT);
-
  Serial.println("Quality, Attention, Meditation, Forward/Reverse");
 }
 
@@ -76,9 +74,4 @@ void loop() {
    Serial.println("");
 
    }
-
-// digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-// delay(200);                       // wait for a second
-// digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-// delay(200);                       // wait for a second
 }
