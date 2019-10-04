@@ -1,7 +1,8 @@
-#include "CH1-ilab-hexbug.h"
 #include <Brain.h>
-
 #include <Mindwave.h>
+
+#include "CH1-ilab-hexbug.h"
+
 #define QUALITY_THRESHOLD 174
 #define ATTENTION_THRESHOLD 15
 #define MEDITATION_THRESHOLD 15
